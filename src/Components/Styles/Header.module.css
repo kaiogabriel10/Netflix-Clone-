@@ -1,0 +1,32 @@
+
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    background-color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item1 span{
+    padding: 0 8px;
+}
+.item2 span{
+    padding: 0 8px;
+}
+
+.Img{
+    width: 12em;
+}
+.profile{
+    border-radius:5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

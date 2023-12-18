@@ -1,0 +1,27 @@
+.Alta{
+    background-color: #020110;
+}
+
+/* Estilos para as imagens */
+.Img {
+    
+    padding: 10px;
+    border-radius: 20px;
+    display: inline; /* Permite o posicionamento lado a lado */
+    margin-right: 10px; /* Espaçamento entre as imagens */
+}
+
+.Img:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+.texto{
+    background-color: #020110;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    color: white;
+}
+
+

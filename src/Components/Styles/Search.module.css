@@ -1,0 +1,40 @@
+.logo{
+    display: flex;
+    padding: 20px;
+    width: 400px;
+}
+
+.busca{
+    background-color: #020110;
+    height: 1100px;
+}
+.input{
+    border-top: 0px hidden;
+    border-right: 0px hidden;
+    border-left: 0px hidden;
+    border-bottom: 1px solid red;
+    background-color: #020110;
+    color: white;
+    padding: 10px;
+}
+.input:focus{
+    outline: 0;
+    color: white;
+}
+.resposta{
+    color: white;
+    height: 100%vh;
+}
+.poster{
+    background-color: red;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.load{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%vh;
+}
